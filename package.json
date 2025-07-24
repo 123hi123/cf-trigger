@@ -1,0 +1,17 @@
+{
+  "name": "cf-trigger",
+  "version": "1.0.0",
+  "description": "Universal GitHub Actions Trigger for Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy -c wrangler.deploy.toml",
+    "deploy:local": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "author": "123hi123",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
